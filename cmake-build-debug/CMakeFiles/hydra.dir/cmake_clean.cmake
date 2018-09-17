@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hydra.dir/main.cpp.obj"
   "CMakeFiles/hydra.dir/Game.cpp.obj"
+  "CMakeFiles/hydra.dir/GameState.cpp.obj"
+  "CMakeFiles/hydra.dir/Reconstruct.cpp.obj"
   "hydra.pdb"
   "hydra.exe"
   "hydra.exe.manifest"

@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/experiments/cpp/hydra/Game.cpp" "E:/experiments/cpp/hydra/cmake-build-debug/CMakeFiles/hydra.dir/Game.cpp.obj"
+  "E:/experiments/cpp/hydra/GameState.cpp" "E:/experiments/cpp/hydra/cmake-build-debug/CMakeFiles/hydra.dir/GameState.cpp.obj"
+  "E:/experiments/cpp/hydra/Reconstruct.cpp" "E:/experiments/cpp/hydra/cmake-build-debug/CMakeFiles/hydra.dir/Reconstruct.cpp.obj"
   "E:/experiments/cpp/hydra/main.cpp" "E:/experiments/cpp/hydra/cmake-build-debug/CMakeFiles/hydra.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

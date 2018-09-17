@@ -53,8 +53,122 @@ CMakeFiles/hydra.dir/Game.cpp.obj
  ../lib/SDL2-2.0.8/include/SDL_video.h
  ../lib/SDL2-2.0.8/include/begin_code.h
  ../lib/SDL2-2.0.8/include/close_code.h
+ E:/experiments/cpp/hydra/Actions.h
  E:/experiments/cpp/hydra/Game.cpp
  E:/experiments/cpp/hydra/Game.h
+ E:/experiments/cpp/hydra/GameState.h
+ E:/experiments/cpp/hydra/Relax.h
+CMakeFiles/hydra.dir/GameState.cpp.obj
+ ../lib/SDL2-2.0.8/include/SDL.h
+ ../lib/SDL2-2.0.8/include/SDL_assert.h
+ ../lib/SDL2-2.0.8/include/SDL_atomic.h
+ ../lib/SDL2-2.0.8/include/SDL_audio.h
+ ../lib/SDL2-2.0.8/include/SDL_blendmode.h
+ ../lib/SDL2-2.0.8/include/SDL_clipboard.h
+ ../lib/SDL2-2.0.8/include/SDL_config.h
+ ../lib/SDL2-2.0.8/include/SDL_config_android.h
+ ../lib/SDL2-2.0.8/include/SDL_config_iphoneos.h
+ ../lib/SDL2-2.0.8/include/SDL_config_macosx.h
+ ../lib/SDL2-2.0.8/include/SDL_config_minimal.h
+ ../lib/SDL2-2.0.8/include/SDL_config_psp.h
+ ../lib/SDL2-2.0.8/include/SDL_config_windows.h
+ ../lib/SDL2-2.0.8/include/SDL_config_winrt.h
+ ../lib/SDL2-2.0.8/include/SDL_cpuinfo.h
+ ../lib/SDL2-2.0.8/include/SDL_endian.h
+ ../lib/SDL2-2.0.8/include/SDL_error.h
+ ../lib/SDL2-2.0.8/include/SDL_events.h
+ ../lib/SDL2-2.0.8/include/SDL_filesystem.h
+ ../lib/SDL2-2.0.8/include/SDL_gamecontroller.h
+ ../lib/SDL2-2.0.8/include/SDL_gesture.h
+ ../lib/SDL2-2.0.8/include/SDL_haptic.h
+ ../lib/SDL2-2.0.8/include/SDL_hints.h
+ ../lib/SDL2-2.0.8/include/SDL_joystick.h
+ ../lib/SDL2-2.0.8/include/SDL_keyboard.h
+ ../lib/SDL2-2.0.8/include/SDL_keycode.h
+ ../lib/SDL2-2.0.8/include/SDL_loadso.h
+ ../lib/SDL2-2.0.8/include/SDL_log.h
+ ../lib/SDL2-2.0.8/include/SDL_main.h
+ ../lib/SDL2-2.0.8/include/SDL_messagebox.h
+ ../lib/SDL2-2.0.8/include/SDL_mouse.h
+ ../lib/SDL2-2.0.8/include/SDL_mutex.h
+ ../lib/SDL2-2.0.8/include/SDL_pixels.h
+ ../lib/SDL2-2.0.8/include/SDL_platform.h
+ ../lib/SDL2-2.0.8/include/SDL_power.h
+ ../lib/SDL2-2.0.8/include/SDL_quit.h
+ ../lib/SDL2-2.0.8/include/SDL_rect.h
+ ../lib/SDL2-2.0.8/include/SDL_render.h
+ ../lib/SDL2-2.0.8/include/SDL_rwops.h
+ ../lib/SDL2-2.0.8/include/SDL_scancode.h
+ ../lib/SDL2-2.0.8/include/SDL_shape.h
+ ../lib/SDL2-2.0.8/include/SDL_stdinc.h
+ ../lib/SDL2-2.0.8/include/SDL_surface.h
+ ../lib/SDL2-2.0.8/include/SDL_system.h
+ ../lib/SDL2-2.0.8/include/SDL_thread.h
+ ../lib/SDL2-2.0.8/include/SDL_timer.h
+ ../lib/SDL2-2.0.8/include/SDL_touch.h
+ ../lib/SDL2-2.0.8/include/SDL_version.h
+ ../lib/SDL2-2.0.8/include/SDL_video.h
+ ../lib/SDL2-2.0.8/include/begin_code.h
+ ../lib/SDL2-2.0.8/include/close_code.h
+ E:/experiments/cpp/hydra/GameState.cpp
+ E:/experiments/cpp/hydra/GameState.h
+CMakeFiles/hydra.dir/Reconstruct.cpp.obj
+ ../lib/SDL2-2.0.8/include/SDL.h
+ ../lib/SDL2-2.0.8/include/SDL_assert.h
+ ../lib/SDL2-2.0.8/include/SDL_atomic.h
+ ../lib/SDL2-2.0.8/include/SDL_audio.h
+ ../lib/SDL2-2.0.8/include/SDL_blendmode.h
+ ../lib/SDL2-2.0.8/include/SDL_clipboard.h
+ ../lib/SDL2-2.0.8/include/SDL_config.h
+ ../lib/SDL2-2.0.8/include/SDL_config_android.h
+ ../lib/SDL2-2.0.8/include/SDL_config_iphoneos.h
+ ../lib/SDL2-2.0.8/include/SDL_config_macosx.h
+ ../lib/SDL2-2.0.8/include/SDL_config_minimal.h
+ ../lib/SDL2-2.0.8/include/SDL_config_psp.h
+ ../lib/SDL2-2.0.8/include/SDL_config_windows.h
+ ../lib/SDL2-2.0.8/include/SDL_config_winrt.h
+ ../lib/SDL2-2.0.8/include/SDL_cpuinfo.h
+ ../lib/SDL2-2.0.8/include/SDL_endian.h
+ ../lib/SDL2-2.0.8/include/SDL_error.h
+ ../lib/SDL2-2.0.8/include/SDL_events.h
+ ../lib/SDL2-2.0.8/include/SDL_filesystem.h
+ ../lib/SDL2-2.0.8/include/SDL_gamecontroller.h
+ ../lib/SDL2-2.0.8/include/SDL_gesture.h
+ ../lib/SDL2-2.0.8/include/SDL_haptic.h
+ ../lib/SDL2-2.0.8/include/SDL_hints.h
+ ../lib/SDL2-2.0.8/include/SDL_joystick.h
+ ../lib/SDL2-2.0.8/include/SDL_keyboard.h
+ ../lib/SDL2-2.0.8/include/SDL_keycode.h
+ ../lib/SDL2-2.0.8/include/SDL_loadso.h
+ ../lib/SDL2-2.0.8/include/SDL_log.h
+ ../lib/SDL2-2.0.8/include/SDL_main.h
+ ../lib/SDL2-2.0.8/include/SDL_messagebox.h
+ ../lib/SDL2-2.0.8/include/SDL_mouse.h
+ ../lib/SDL2-2.0.8/include/SDL_mutex.h
+ ../lib/SDL2-2.0.8/include/SDL_pixels.h
+ ../lib/SDL2-2.0.8/include/SDL_platform.h
+ ../lib/SDL2-2.0.8/include/SDL_power.h
+ ../lib/SDL2-2.0.8/include/SDL_quit.h
+ ../lib/SDL2-2.0.8/include/SDL_rect.h
+ ../lib/SDL2-2.0.8/include/SDL_render.h
+ ../lib/SDL2-2.0.8/include/SDL_rwops.h
+ ../lib/SDL2-2.0.8/include/SDL_scancode.h
+ ../lib/SDL2-2.0.8/include/SDL_shape.h
+ ../lib/SDL2-2.0.8/include/SDL_stdinc.h
+ ../lib/SDL2-2.0.8/include/SDL_surface.h
+ ../lib/SDL2-2.0.8/include/SDL_system.h
+ ../lib/SDL2-2.0.8/include/SDL_thread.h
+ ../lib/SDL2-2.0.8/include/SDL_timer.h
+ ../lib/SDL2-2.0.8/include/SDL_touch.h
+ ../lib/SDL2-2.0.8/include/SDL_version.h
+ ../lib/SDL2-2.0.8/include/SDL_video.h
+ ../lib/SDL2-2.0.8/include/begin_code.h
+ ../lib/SDL2-2.0.8/include/close_code.h
+ E:/experiments/cpp/hydra/Actions.h
+ E:/experiments/cpp/hydra/Game.h
+ E:/experiments/cpp/hydra/GameState.h
+ E:/experiments/cpp/hydra/Reconstruct.cpp
+ E:/experiments/cpp/hydra/Relax.h
 CMakeFiles/hydra.dir/main.cpp.obj
  ../lib/SDL2-2.0.8/include/SDL.h
  ../lib/SDL2-2.0.8/include/SDL_assert.h
@@ -107,5 +221,8 @@ CMakeFiles/hydra.dir/main.cpp.obj
  ../lib/SDL2-2.0.8/include/SDL_video.h
  ../lib/SDL2-2.0.8/include/begin_code.h
  ../lib/SDL2-2.0.8/include/close_code.h
+ E:/experiments/cpp/hydra/Actions.h
  E:/experiments/cpp/hydra/Game.h
+ E:/experiments/cpp/hydra/GameState.h
+ E:/experiments/cpp/hydra/Relax.h
  E:/experiments/cpp/hydra/main.cpp

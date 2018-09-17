@@ -149,6 +149,60 @@ Game.cpp.s:
 	$(MAKE) -f CMakeFiles\hydra.dir\build.make CMakeFiles/hydra.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
+GameState.obj: GameState.cpp.obj
+
+.PHONY : GameState.obj
+
+# target to build an object file
+GameState.cpp.obj:
+	$(MAKE) -f CMakeFiles\hydra.dir\build.make CMakeFiles/hydra.dir/GameState.cpp.obj
+.PHONY : GameState.cpp.obj
+
+GameState.i: GameState.cpp.i
+
+.PHONY : GameState.i
+
+# target to preprocess a source file
+GameState.cpp.i:
+	$(MAKE) -f CMakeFiles\hydra.dir\build.make CMakeFiles/hydra.dir/GameState.cpp.i
+.PHONY : GameState.cpp.i
+
+GameState.s: GameState.cpp.s
+
+.PHONY : GameState.s
+
+# target to generate assembly for a file
+GameState.cpp.s:
+	$(MAKE) -f CMakeFiles\hydra.dir\build.make CMakeFiles/hydra.dir/GameState.cpp.s
+.PHONY : GameState.cpp.s
+
+Reconstruct.obj: Reconstruct.cpp.obj
+
+.PHONY : Reconstruct.obj
+
+# target to build an object file
+Reconstruct.cpp.obj:
+	$(MAKE) -f CMakeFiles\hydra.dir\build.make CMakeFiles/hydra.dir/Reconstruct.cpp.obj
+.PHONY : Reconstruct.cpp.obj
+
+Reconstruct.i: Reconstruct.cpp.i
+
+.PHONY : Reconstruct.i
+
+# target to preprocess a source file
+Reconstruct.cpp.i:
+	$(MAKE) -f CMakeFiles\hydra.dir\build.make CMakeFiles/hydra.dir/Reconstruct.cpp.i
+.PHONY : Reconstruct.cpp.i
+
+Reconstruct.s: Reconstruct.cpp.s
+
+.PHONY : Reconstruct.s
+
+# target to generate assembly for a file
+Reconstruct.cpp.s:
+	$(MAKE) -f CMakeFiles\hydra.dir\build.make CMakeFiles/hydra.dir/Reconstruct.cpp.s
+.PHONY : Reconstruct.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -188,6 +242,12 @@ help:
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s
+	@echo ... GameState.obj
+	@echo ... GameState.i
+	@echo ... GameState.s
+	@echo ... Reconstruct.obj
+	@echo ... Reconstruct.i
+	@echo ... Reconstruct.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

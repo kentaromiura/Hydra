@@ -86,10 +86,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/experiments/cpp/hydra/Actions.h">
+			<Option target="hydra"/>
+		</Unit>
 		<Unit filename="E:/experiments/cpp/hydra/Game.cpp">
 			<Option target="hydra"/>
 		</Unit>
 		<Unit filename="E:/experiments/cpp/hydra/Game.h">
+			<Option target="hydra"/>
+		</Unit>
+		<Unit filename="E:/experiments/cpp/hydra/GameState.cpp">
+			<Option target="hydra"/>
+		</Unit>
+		<Unit filename="E:/experiments/cpp/hydra/GameState.h">
+			<Option target="hydra"/>
+		</Unit>
+		<Unit filename="E:/experiments/cpp/hydra/Reconstruct.cpp">
 			<Option target="hydra"/>
 		</Unit>
 		<Unit filename="E:/experiments/cpp/hydra/Relax.h">

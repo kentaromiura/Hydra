@@ -634,6 +634,8 @@ close_code.h
 
 ../lib/SDL2-2.0.8/include/close_code.h
 
+E:/experiments/cpp/hydra/Actions.h
+
 E:/experiments/cpp/hydra/Game.cpp
 Game.h
 E:/experiments/cpp/hydra/Game.h
@@ -643,4 +645,36 @@ SDL.h
 -
 SDL_main.h
 -
+GameState.h
+E:/experiments/cpp/hydra/GameState.h
+Relax.h
+E:/experiments/cpp/hydra/Relax.h
+Actions.h
+E:/experiments/cpp/hydra/Actions.h
+
+E:/experiments/cpp/hydra/GameState.cpp
+GameState.h
+E:/experiments/cpp/hydra/GameState.h
+
+E:/experiments/cpp/hydra/GameState.h
+SDL.h
+-
+
+E:/experiments/cpp/hydra/Reconstruct.cpp
+Game.h
+E:/experiments/cpp/hydra/Game.h
+
+E:/experiments/cpp/hydra/Relax.h
+vector
+-
+algorithm
+-
+functional
+-
+exception
+-
+
+E:/experiments/cpp/hydra/main.cpp
+Game.h
+E:/experiments/cpp/hydra/Game.h
 
