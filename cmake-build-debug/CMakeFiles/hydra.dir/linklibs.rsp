@@ -1,0 +1,1 @@
+-static -lgcc -lstdc++ -lwinpthread ../lib/SDL2-2.0.8/cmake-build-release/libSDL2main.a ../lib/SDL2-2.0.8/cmake-build-release/libSDL2.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

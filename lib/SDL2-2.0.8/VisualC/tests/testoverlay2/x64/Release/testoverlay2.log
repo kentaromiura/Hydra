@@ -1,0 +1,6 @@
+﻿  Copying moose.dat
+          1 file(s) copied.
+  testoverlay2.c
+  testyuv_cvt.c
+  Generating Code...
+  testoverlay2.vcxproj -> E:\experiments\cpp\hydra\lib\SDL2-2.0.8\VisualC\x64\Release\testoverlay2.exe

@@ -1,0 +1,481 @@
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_96141/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_96141.dir\build.make CMakeFiles/cmTC_96141.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96141.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DHAVE_ALTIVEC_H_HDR -maltivec   -o CMakeFiles\cmTC_96141.dir\src.c.obj   -c E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-maltivec'; did you mean '-mxsavec'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_96141.dir\build.make:65: CMakeFiles/cmTC_96141.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_96141/fast] Error 2
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_07a0e/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_07a0e.dir\build.make CMakeFiles/cmTC_07a0e.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07a0e.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DHAVE_ALTIVEC -maltivec   -o CMakeFiles\cmTC_07a0e.dir\src.c.obj   -c E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+gcc.exe: error: unrecognized command line option '-maltivec'; did you mean '-mxsavec'?
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_07a0e.dir\build.make:65: CMakeFiles/cmTC_07a0e.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_07a0e/fast] Error 2
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_a8dcd/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_a8dcd.dir\build.make CMakeFiles/cmTC_a8dcd.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8dcd.dir/CheckIncludeFile.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos    -o CMakeFiles\cmTC_a8dcd.dir\CheckIncludeFile.c.obj   -c E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: libunwind.h: No such file or directory
+ #include <libunwind.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_a8dcd.dir\build.make:65: CMakeFiles/cmTC_a8dcd.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_a8dcd/fast] Error 2
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_08901/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_08901.dir\build.make CMakeFiles/cmTC_08901.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08901.dir/STDC_HEADERS.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos    -o CMakeFiles\cmTC_08901.dir\STDC_HEADERS.c.obj   -c E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CheckIncludeFiles\STDC_HEADERS.c
+E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CheckIncludeFiles\STDC_HEADERS.c:2:10: fatal error: dlfcn.h: No such file or directory
+ #include <dlfcn.h>
+          ^~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_08901.dir\build.make:65: CMakeFiles/cmTC_08901.dir/STDC_HEADERS.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_08901/fast] Error 2
+
+Source:
+/* */
+#include <dlfcn.h>
+#include <stdint.h>
+#include <stddef.h>
+#include <inttypes.h>
+#include <stdlib.h>
+#include <strings.h>
+#include <string.h>
+#include <float.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_f1d2b/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_f1d2b.dir\build.make CMakeFiles/cmTC_f1d2b.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1d2b.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DHAVE_MPROTECT   -o CMakeFiles\cmTC_f1d2b.dir\src.c.obj   -c E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:2:39: fatal error: sys/mman.h: No such file or directory
+                              #include <sys/mman.h>
+                                       ^~~~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_f1d2b.dir\build.make:65: CMakeFiles/cmTC_f1d2b.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_f1d2b/fast] Error 2
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the function setenv exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_2c31f/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_2c31f.dir\build.make CMakeFiles/cmTC_2c31f.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c31f.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=setenv   -o CMakeFiles\cmTC_2c31f.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_2c31f.exe
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2c31f.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_2c31f.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_2c31f.dir/objects.a @CMakeFiles\cmTC_2c31f.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=setenv    -Wl,--whole-archive CMakeFiles\cmTC_2c31f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2c31f.exe -Wl,--out-implib,libcmTC_2c31f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_2c31f.dir\linklibs.rsp
+CMakeFiles\cmTC_2c31f.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `setenv'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_2c31f.dir\build.make:88: cmTC_2c31f.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_2c31f/fast] Error 2
+
+
+Determining if the function unsetenv exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_b1e9f/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_b1e9f.dir\build.make CMakeFiles/cmTC_b1e9f.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1e9f.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=unsetenv   -o CMakeFiles\cmTC_b1e9f.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_b1e9f.exe
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b1e9f.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b1e9f.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_b1e9f.dir/objects.a @CMakeFiles\cmTC_b1e9f.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=unsetenv    -Wl,--whole-archive CMakeFiles\cmTC_b1e9f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b1e9f.exe -Wl,--out-implib,libcmTC_b1e9f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b1e9f.dir\linklibs.rsp
+CMakeFiles\cmTC_b1e9f.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `unsetenv'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_b1e9f.dir\build.make:88: cmTC_b1e9f.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_b1e9f/fast] Error 2
+
+
+Determining if the function bcopy exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_889f7/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_889f7.dir\build.make CMakeFiles/cmTC_889f7.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_889f7.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=bcopy   -o CMakeFiles\cmTC_889f7.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c"
+<command-line>: warning: conflicting types for built-in function 'bcopy' [-Wbuiltin-declaration-mismatch]
+C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_889f7.exe
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_889f7.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_889f7.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_889f7.dir/objects.a @CMakeFiles\cmTC_889f7.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=bcopy    -Wl,--whole-archive CMakeFiles\cmTC_889f7.dir/objects.a -Wl,--no-whole-archive  -o cmTC_889f7.exe -Wl,--out-implib,libcmTC_889f7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_889f7.dir\linklibs.rsp
+CMakeFiles\cmTC_889f7.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `bcopy'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_889f7.dir\build.make:88: cmTC_889f7.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_889f7/fast] Error 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_b93b4/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_b93b4.dir\build.make CMakeFiles/cmTC_b93b4.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b93b4.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles\cmTC_b93b4.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_b93b4.exe
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b93b4.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_b93b4.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_b93b4.dir/objects.a @CMakeFiles\cmTC_b93b4.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcpy    -Wl,--whole-archive CMakeFiles\cmTC_b93b4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b93b4.exe -Wl,--out-implib,libcmTC_b93b4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b93b4.dir\linklibs.rsp
+CMakeFiles\cmTC_b93b4.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `strlcpy'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_b93b4.dir\build.make:88: cmTC_b93b4.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_b93b4/fast] Error 2
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_647c3/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_647c3.dir\build.make CMakeFiles/cmTC_647c3.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_647c3.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles\cmTC_647c3.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_647c3.exe
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_647c3.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_647c3.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_647c3.dir/objects.a @CMakeFiles\cmTC_647c3.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=strlcat    -Wl,--whole-archive CMakeFiles\cmTC_647c3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_647c3.exe -Wl,--out-implib,libcmTC_647c3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_647c3.dir\linklibs.rsp
+CMakeFiles\cmTC_647c3.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `strlcat'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_647c3.dir\build.make:88: cmTC_647c3.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_647c3/fast] Error 2
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_c0b67/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_c0b67.dir\build.make CMakeFiles/cmTC_c0b67.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0b67.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=_uitoa   -o CMakeFiles\cmTC_c0b67.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_c0b67.exe
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c0b67.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c0b67.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_c0b67.dir/objects.a @CMakeFiles\cmTC_c0b67.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=_uitoa    -Wl,--whole-archive CMakeFiles\cmTC_c0b67.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c0b67.exe -Wl,--out-implib,libcmTC_c0b67.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c0b67.dir\linklibs.rsp
+CMakeFiles\cmTC_c0b67.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `_uitoa'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_c0b67.dir\build.make:88: cmTC_c0b67.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_c0b67/fast] Error 2
+
+
+Determining if the function sigaction exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_93c63/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_93c63.dir\build.make CMakeFiles/cmTC_93c63.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93c63.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles\cmTC_93c63.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_93c63.exe
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_93c63.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_93c63.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_93c63.dir/objects.a @CMakeFiles\cmTC_93c63.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=sigaction    -Wl,--whole-archive CMakeFiles\cmTC_93c63.dir/objects.a -Wl,--no-whole-archive  -o cmTC_93c63.exe -Wl,--out-implib,libcmTC_93c63.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_93c63.dir\linklibs.rsp
+CMakeFiles\cmTC_93c63.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `sigaction'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_93c63.dir\build.make:88: cmTC_93c63.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_93c63/fast] Error 2
+
+
+Determining if the function setjmp exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_17d5f/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_17d5f.dir\build.make CMakeFiles/cmTC_17d5f.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17d5f.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles\cmTC_17d5f.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_17d5f.exe
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_17d5f.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_17d5f.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_17d5f.dir/objects.a @CMakeFiles\cmTC_17d5f.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=setjmp    -Wl,--whole-archive CMakeFiles\cmTC_17d5f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_17d5f.exe -Wl,--out-implib,libcmTC_17d5f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_17d5f.dir\linklibs.rsp
+CMakeFiles\cmTC_17d5f.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `setjmp'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_17d5f.dir\build.make:88: cmTC_17d5f.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_17d5f/fast] Error 2
+
+
+Determining if the function sysconf exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_79f9f/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_79f9f.dir\build.make CMakeFiles/cmTC_79f9f.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79f9f.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysconf   -o CMakeFiles\cmTC_79f9f.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_79f9f.exe
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_79f9f.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_79f9f.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_79f9f.dir/objects.a @CMakeFiles\cmTC_79f9f.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysconf    -Wl,--whole-archive CMakeFiles\cmTC_79f9f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_79f9f.exe -Wl,--out-implib,libcmTC_79f9f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_79f9f.dir\linklibs.rsp
+CMakeFiles\cmTC_79f9f.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `sysconf'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_79f9f.dir\build.make:88: cmTC_79f9f.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_79f9f/fast] Error 2
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_bb711/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_bb711.dir\build.make CMakeFiles/cmTC_bb711.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb711.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysctlbyname   -o CMakeFiles\cmTC_bb711.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_bb711.exe
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bb711.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_bb711.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_bb711.dir/objects.a @CMakeFiles\cmTC_bb711.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=sysctlbyname    -Wl,--whole-archive CMakeFiles\cmTC_bb711.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bb711.exe -Wl,--out-implib,libcmTC_bb711.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_bb711.dir\linklibs.rsp
+CMakeFiles\cmTC_bb711.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `sysctlbyname'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_bb711.dir\build.make:88: cmTC_bb711.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_bb711/fast] Error 2
+
+
+Determining if the function getauxval exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_f55c5/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_f55c5.dir\build.make CMakeFiles/cmTC_f55c5.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f55c5.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=getauxval   -o CMakeFiles\cmTC_f55c5.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_f55c5.exe
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f55c5.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f55c5.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_f55c5.dir/objects.a @CMakeFiles\cmTC_f55c5.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=getauxval    -Wl,--whole-archive CMakeFiles\cmTC_f55c5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f55c5.exe -Wl,--out-implib,libcmTC_f55c5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f55c5.dir\linklibs.rsp
+CMakeFiles\cmTC_f55c5.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `getauxval'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_f55c5.dir\build.make:88: cmTC_f55c5.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_f55c5/fast] Error 2
+
+
+Determining if the function poll exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_fd4b2/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_fd4b2.dir\build.make CMakeFiles/cmTC_fd4b2.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd4b2.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles\cmTC_fd4b2.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_fd4b2.exe
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_fd4b2.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_fd4b2.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_fd4b2.dir/objects.a @CMakeFiles\cmTC_fd4b2.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=poll    -Wl,--whole-archive CMakeFiles\cmTC_fd4b2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_fd4b2.exe -Wl,--out-implib,libcmTC_fd4b2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_fd4b2.dir\linklibs.rsp
+CMakeFiles\cmTC_fd4b2.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `poll'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_fd4b2.dir\build.make:88: cmTC_fd4b2.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_fd4b2/fast] Error 2
+
+
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_31c0f/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_31c0f.dir\build.make CMakeFiles/cmTC_31c0f.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31c0f.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=iconv_open   -o CMakeFiles\cmTC_31c0f.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_31c0f.exe
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_31c0f.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_31c0f.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_31c0f.dir/objects.a @CMakeFiles\cmTC_31c0f.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=iconv_open    -Wl,--whole-archive CMakeFiles\cmTC_31c0f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_31c0f.exe -Wl,--out-implib,libcmTC_31c0f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_31c0f.dir\linklibs.rsp
+CMakeFiles\cmTC_31c0f.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0xc): undefined reference to `iconv_open'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_31c0f.dir\build.make:88: cmTC_31c0f.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_31c0f/fast] Error 2
+
+
+Determining if the include file alloca.h exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_08f18/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_08f18.dir\build.make CMakeFiles/cmTC_08f18.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08f18.dir/CheckIncludeFile.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos    -o CMakeFiles\cmTC_08f18.dir\CheckIncludeFile.c.obj   -c E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: alloca.h: No such file or directory
+ #include <alloca.h>
+          ^~~~~~~~~~
+compilation terminated.
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_08f18.dir\build.make:65: CMakeFiles/cmTC_08f18.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_08f18/fast] Error 2
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_7348e/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_7348e.dir\build.make CMakeFiles/cmTC_7348e.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7348e.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=alloca   -o CMakeFiles\cmTC_7348e.dir\CheckFunctionExists.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c"
+<command-line>: warning: conflicting types for built-in function 'alloca' [-Wbuiltin-declaration-mismatch]
+C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\share\cmake-3.12\Modules\CheckFunctionExists.c:7:3: note: in expansion of macro 'CHECK_FUNCTION_EXISTS'
+   CHECK_FUNCTION_EXISTS(void);
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_7348e.exe
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7348e.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_7348e.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_7348e.dir/objects.a @CMakeFiles\cmTC_7348e.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DCHECK_FUNCTION_EXISTS=alloca    -Wl,--whole-archive CMakeFiles\cmTC_7348e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7348e.exe -Wl,--out-implib,libcmTC_7348e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7348e.dir\linklibs.rsp
+CMakeFiles\cmTC_7348e.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x17): undefined reference to `alloca'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_7348e.dir\build.make:88: cmTC_7348e.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_7348e/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_6dc97/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_6dc97.dir\build.make CMakeFiles/cmTC_6dc97.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6dc97.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DHAVE_SA_SIGACTION   -o CMakeFiles\cmTC_6dc97.dir\src.c.obj   -c E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\src.c: In function 'main':
+E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:6:40: error: dereferencing pointer to incomplete type 'struct sigaction'
+    (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+                                        ^~
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_6dc97.dir\build.make:65: CMakeFiles/cmTC_6dc97.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_6dc97/fast] Error 2
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+   (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_XINPUT_GAMEPAD_EX failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_4ea61/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_4ea61.dir\build.make CMakeFiles/cmTC_4ea61.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ea61.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DHAVE_XINPUT_GAMEPAD_EX   -o CMakeFiles\cmTC_4ea61.dir\src.c.obj   -c E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:4:9: error: unknown type name 'XINPUT_GAMEPAD_EX'; did you mean 'XINPUT_GAMEPAD_X'?
+         XINPUT_GAMEPAD_EX x1;
+         ^~~~~~~~~~~~~~~~~
+         XINPUT_GAMEPAD_X
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_4ea61.dir\build.make:65: CMakeFiles/cmTC_4ea61.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_4ea61/fast] Error 2
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        XINPUT_GAMEPAD_EX x1;
+        int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_XINPUT_STATE_EX failed with the following output:
+Change Dir: E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_083f3/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_083f3.dir\build.make CMakeFiles/cmTC_083f3.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_083f3.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -idirafter E:/experiments/cpp/hydra/lib/SDL2-2.0.8/src/video/khronos -DHAVE_XINPUT_STATE_EX   -o CMakeFiles\cmTC_083f3.dir\src.c.obj   -c E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+E:\experiments\cpp\hydra\lib\SDL2-2.0.8\cmake-build-debug\CMakeFiles\CMakeTmp\src.c:4:9: error: unknown type name 'XINPUT_STATE_EX'; did you mean 'XINPUT_STATE'?
+         XINPUT_STATE_EX s1;
+         ^~~~~~~~~~~~~~~
+         XINPUT_STATE
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_083f3.dir\build.make:65: CMakeFiles/cmTC_083f3.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_083f3/fast] Error 2
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        XINPUT_STATE_EX s1;
+        int main(int argc, char **argv) { }

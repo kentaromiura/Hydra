@@ -1,0 +1,10 @@
+E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-release/CMakeFiles/rebuild_cache.dir
+E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-release/CMakeFiles/SDL2-static.dir
+E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-release/CMakeFiles/SDL2main.dir
+E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-release/CMakeFiles/install/local.dir
+E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-release/CMakeFiles/install.dir
+E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-release/CMakeFiles/edit_cache.dir
+E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-release/CMakeFiles/SDL2.dir
+E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-release/CMakeFiles/uninstall.dir
+E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-release/CMakeFiles/list_install_components.dir
+E:/experiments/cpp/hydra/lib/SDL2-2.0.8/cmake-build-release/CMakeFiles/install/strip.dir
